@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TodoNote">
-        <activity android:name=".Notes"></activity>
+        <activity android:name=".Note_Note_add"></activity>
+        <activity android:name=".Note" />
+        <activity android:name=".Notes_test1" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
