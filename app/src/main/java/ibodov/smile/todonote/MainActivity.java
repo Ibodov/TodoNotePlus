@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 //нажатия на рисунок
                 //getApplicationContext() - возврашает контекст
                 Intent intent = new Intent(getApplicationContext(), Note.class);
-                //запуск активити
+                //запуск активити.
                 startActivity(intent);
             }
         });
